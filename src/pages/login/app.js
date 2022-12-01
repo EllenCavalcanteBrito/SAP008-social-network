@@ -17,8 +17,8 @@ export default () => {
       </div>
       </br>
       <div class="register">
-        <p>Cadastre-se para obter informações de novos filmes e séries, dar a sua opinião e se conectar com pessoas que
-          tem tudo a ver com você.</p>
+        <p>Cadastre-se para obter informações de novos filmes e séries, dar a sua opinião 
+        e se conectar com pessoas que tem tudo a ver com você.</p>
   
         <button type="button" id="button-gmail" class="button">
           <span class="button-icon"><img id="logo-gmail" src="./img/gmail-logo.png" alt="Logo Gmail"></span>

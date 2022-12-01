@@ -214,8 +214,8 @@ export default () => {
 
   boxPost.addEventListener('click', (e) => {
     const buttonLike = e.target.dataset.liked;
-    const increment = firebase.firestore.FieldValue.increment(1);
     if (buttonLike) {
+      const increment = firebase.firestore.FieldValue.increment(1);
       boxPost.querySelector(`#poster-${buttonLike}`).getElementsByClassName('getLike')[0].innerHTML = 'Curtiu!';
       firebase.firestore().collection('posts').doc(buttonLike).update({ like: increment })
         .catch(() => {
