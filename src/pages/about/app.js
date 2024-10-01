@@ -50,7 +50,7 @@ export default () => {
           <div class="text">
           <h3>Ellen Cavalcante</h3> <br/>
           Sou uma pessoa comunicativa, proativa e que ama conhecer coisas novas, acredito que o conhecimento é a ferramenta mais valiosa 
-          para o nosso crescimento. E claro, amo filmes e séries.
+          para o nosso crescimento. E claro, amo filmes e séries. (Amo a série Grimm)
           <div class="networks">
           <div class="social">
           <a href="https://www.instagram.com/ellenccavalcante/"target="_blank"> <img id="insta-icon" src="./img/Instagram-Icon.png.webp" alt="logo Instagram"></a>
